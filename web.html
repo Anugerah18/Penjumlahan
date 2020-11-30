@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anugerah</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <div style="margin: auto; margin-top: 80px;">
+        <h1 id="heading" style="text-align: center; color: #0004fc">Penjumlahan</h1>
+        <div style="text-align: center;"><span>Anugerah Sayekti - 192410103083</span></div>
+        <div style="text-align: center;"><span>Silahkan di isi angka yang ingin di jumlahkan</span></div>
+
+        <div id="back" style="margin-top: 30px; margin-right: 30px; margin-left: 30px; background-color: #0004fc; border-radius: 30px; text-align: center; padding-top: 50px; padding-bottom: 50px;">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <label class="label">Nilai A</label>
+                <br>
+                <input id="satu" class="box" type="number">
+            </div>
+            <div style="text-align: center; margin-bottom: 20px;">
+                <label class="label">Nilai B</label>
+                <br>
+                <input id="dua" class="box" type="number">
+            </div>
+            <div style="text-align: center; margin-bottom: 20px;">
+                <button onClick="calc();" style="background-color: white; padding: 10px 30px 10px 30px; border-radius: 20px; border-color: white;" type="button">Jumlahkan</button>
+            </div>
+            <h2>Hasil</h2>
+            <span id="sum">0</span>
+        </div>
+    </div>
+</body>
+</html>
